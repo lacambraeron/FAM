@@ -1,0 +1,24 @@
+{% extends "grocery/layout.html" %}
+
+{% block body %}
+    <h2>{{ title }}</h2>
+
+    {% if orders %}
+        {% for order in orders %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Order #{{ order.id }}</h5>
+                    <ul>
+                        {% for item in order.order_items.all %}
+                            <li>{{ item.quantity }} x {{ item.item.title }}</li>
+                        {% endfor %}
+                    </ul>
+                    <p>Delivery Method: {{ order.get_delivery_method_display }}</p>
+                    <p>Status: {{ order.get_status_display }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No orders to display.</p>
+    {% endif %}
+{% endblock %}

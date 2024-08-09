@@ -1,0 +1,57 @@
+body {
+    padding: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.card > a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-img {
+    height: 250px;
+    object-fit: contain;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand p{
+    margin-left: 10px;
+    margin-right: 100px;
+    font-size: smaller;
+}
+
+.navbar-brand h1 {
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-left: 95px;
+    margin-right: 0px;
+}
+.social-links a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.search-bar {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.btn-sm {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}

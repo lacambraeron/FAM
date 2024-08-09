@@ -1,0 +1,15 @@
+{% extends "grocery/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <div>
+        <button id="contactUsBtn">Contact Us</button>
+        <button id="hoursBtn">Hours</button>
+        <button id="aboutUsBtn">About Us</button>
+    </div>
+
+    <div id="contentContainer">
+    </div>
+
+    <script src="{% static 'grocery/homepage.js' %}"></script>
+{% endblock %}
