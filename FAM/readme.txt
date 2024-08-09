@@ -1,7 +1,5 @@
 Welcome to the app Family Asian Market!
 
-Presentation video: https://www.youtube.com/watch?v=2lCo4se54cQ
-
 This app is inspired by a business my parents own called Family Asian Market (familyasianmarket.com)
 This app is a multipage app designed to present the business' items and have a cart and checkout process.
 Based on online the convention for shopping apps is to make multipage checkout process. A multipage checkout process accomplishes a few things such as the user's ability to verify the items
